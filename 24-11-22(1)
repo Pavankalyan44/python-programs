@@ -1,1 +1,16 @@
-
+a=10
+b=20
+add=a+b
+print("add=",add)
+sub=a-b
+print("sub=",sub)
+mul=a*b
+print("mul=",mul)
+div=a/b
+print("div=",div)
+mod=a%b
+print("mod=",mod)
+power=a**b
+print("power=",power)
+floor=a||b
+print("floor=", floor)
