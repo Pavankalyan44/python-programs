@@ -22,4 +22,4 @@ elif bill>500 and bill<1000:
     tax=bill*15/100
 else:
     tax=100
-print("bill=",cphno,cname,address,tax,bill)
+print(cphno,cname,address,"tax=",tax,"bill=",bill)
