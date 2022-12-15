@@ -1,0 +1,13 @@
+n=int(input())
+l=[]
+for i in range(0,n):
+    j=int(input())
+    l.append(j)
+for i in range(0,n):
+    for j in range(0,n):
+        b=l[i]
+        s=l[j]
+        if l[i]>l[j]:
+            l[i]=s
+            l[j]=b
+print(l)
